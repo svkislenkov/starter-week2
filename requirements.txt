@@ -1,4 +1,3 @@
-# Core dependencies and scientific libraries
 absl-py==2.1.0
 appnope==0.1.4
 asttokens==3.0.0
@@ -19,18 +18,13 @@ google-pasta==0.2.0
 grpcio==1.68.1
 h5py==3.12.1
 idna==3.10
-
-# Jupyter and interactive computing
 ipykernel==6.29.5
 ipython==8.31.0
 jedi==0.19.2
 jupyter_client==8.6.3
 jupyter_core==5.7.2
-nest-asyncio==1.6.0
-prompt_toolkit==3.0.48
-
-# Other useful packages
 kaggle==1.6.17
+keras==3.7.0
 kiwisolver==1.4.8
 libclang==18.1.1
 Markdown==3.7
@@ -39,14 +33,10 @@ MarkupSafe==3.0.2
 matplotlib==3.10.0
 matplotlib-inline==0.1.7
 mdurl==0.1.2
+ml-dtypes==0.4.1
 namex==0.0.8
-
-# IMPORTANT: Do NOT install a standalone "keras" package.
-# Use TensorFlow's bundled tf.keras instead.
-
-# Use a NumPy version known to work reliably with TensorFlow 2.16.2.
-numpy==1.24.0
-
+nest-asyncio==1.6.0
+numpy==2.0.2
 opencv-python==4.10.0.84
 opt_einsum==3.4.0
 optree==0.13.1
@@ -55,6 +45,7 @@ parso==0.8.4
 pexpect==4.9.0
 pillow==11.1.0
 platformdirs==4.3.6
+prompt_toolkit==3.0.48
 protobuf==5.29.2
 psutil==6.1.1
 ptyprocess==0.7.0
@@ -66,19 +57,12 @@ python-slugify==8.0.4
 pyzmq==26.2.0
 requests==2.32.3
 rich==13.9.4
-
-# (Do not pin setuptools explicitly; let pip manage it)
-# setuptools==75.6.0
-
+setuptools==75.6.0
 six==1.17.0
 stack-data==0.6.3
-
-# TensorFlow and its ecosystem
-tensorboard==2.16.2
+tensorboard==2.18.0
 tensorboard-data-server==0.7.2
-tensorflow==2.16.2
-
-# Other utility packages
+tensorflow==2.18.0
 termcolor==2.5.0
 text-unidecode==1.3
 tornado==6.4.2
